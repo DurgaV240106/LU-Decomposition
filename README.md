@@ -22,7 +22,7 @@ Program to find the L and U matrix.
 Developed by:DURGA V 
 RegisterNumber: 23013532
 */
-```
+
 import numpy as np
 from scipy.linalg import lu
 a=np.array(eval(input()))
@@ -31,14 +31,13 @@ print(l)
 print(u)
 
 (ii) To find the LU Decomposition of a matrix
-```
+
 /*
 Program to find the LU Decomposition of a matrix.
 Developed by: DURGA V
 RegisterNumber: 23013532
 */
-```
-# To print X matrix (solution to the equations)
+
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 a=np.array(eval(input()))
@@ -46,6 +45,7 @@ b=np.array(eval(input()))
 lu,piv=lu_factor(a)
 l=lu_solve((lu,piv),b)
 print(l)
+```
 
 
 ## Output:
